@@ -153,18 +153,13 @@ class CodeParser:
 
 parser = CodeParser()
 code = """ 
-def calculate_area(radius):
-    # Error 1: Missing colon in function definition above
-    
-    if radius > 0:
-        # Error 2: Missing colon in if-statement
-        import math
-        return math.pi * (radius ** 2)
-    else:
-        return "Invalid radius"
+def greet(name)
+    print("Hello, " + name)
 
-# Error 3: Misplaced indentation and missing closing quote
-print(calculate_area(5))
+for i in range(5)
+    print(i)
+
+if True
+    print("This will cause syntax error"
 """
-while code
 print(parser.parse(code))
